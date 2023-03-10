@@ -14,50 +14,55 @@
 		<title>Fullscreen Layout Page</title>
 	</head>
 	<body>
-		<aside>
-			<img
-				src="./assets/img/profile_girl.jpg"
-				alt="" />
-		</aside>
+		<aside></aside>
 		<header>
-			<h1>Jane Doe</h1>
-			<p>Photographer and Web Designer.</p>
-			<button class="btn-download">
-				<svg></svg>
-				Download Resume
-			</button>
+			<h1 class="user-name">Jane Doe</h1>
+			<p class="user-about">Photographer and Web Designer.</p>
+			<div class="btn-download-wrapper">
+				<svg
+					class="download-svg"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 24 24">
+					<title>download</title>
+					<path d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" />
+				</svg>
+				<button class="btn-download">Download Resume</button>
+			</div>
 		</header>
 		<main>
 			<section class="portfolio">
 				<h2>My Portfolio</h2>
-				<img
-					src="./assets/img/wedding.jpg"
-					alt=""
-					class="photo" />
-				<img
-					src="./assets/img/rocks.jpg"
-					alt=""
-					class="photo" />
-				<img
-					src="./assets/img/sailboat.jpg"
-					alt=""
-					class="photo" />
-				<img
-					src="./assets/img/underwater.jpg"
-					alt=""
-					class="photo" />
-				<img
-					src="./assets/img/chef.jpg"
-					alt=""
-					class="photo" />
-				<img
-					src="./assets/img/wedding.jpg"
-					alt=""
-					class="photo" />
-				<img
-					src="./assets/img/p6.jpg"
-					alt=""
-					class="photo" />
+
+				<div class="flex-wrapper">
+					<img
+						src="./assets/img/wedding.jpg"
+						alt=""
+						class="photo weddind" />
+					<img
+						src="./assets/img/rocks.jpg"
+						alt=""
+						class="photo rocks" />
+					<img
+						src="./assets/img/sailboat.jpg"
+						alt=""
+						class="photo sailboat" />
+					<img
+						src="./assets/img/underwater.jpg"
+						alt=""
+						class="photo underwater" />
+					<img
+						src="./assets/img/chef.jpg"
+						alt=""
+						class="photo chef" />
+					<img
+						src="./assets/img/wedding.jpg"
+						alt=""
+						class="photo wedding-2" />
+					<img
+						src="./assets/img/p6.jpg"
+						alt=""
+						class="photo p6" />
+				</div>
 			</section>
 			<section class="about">
 				<h2>About</h2>
