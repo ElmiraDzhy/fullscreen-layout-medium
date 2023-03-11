@@ -237,3 +237,48 @@ td > p:last-child{
 }
 
 /*reputation*/
+
+.reputation{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.user-card-mini{
+    display: flex;
+    flex-direction:row;
+}
+.user-card-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h4, .user-about{
+    display: inline;
+}
+
+.user-about{
+    margin-left: 15px;
+}
+
+
+h4{
+    font-size: 18px;
+    color: black;
+}
+
+.user-card-photo{
+    width: 80px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.user-card-info-wrapper > p, .user-about{
+    font-size: 15px;
+    color: #757575;
+}
