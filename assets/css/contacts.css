@@ -1,0 +1,81 @@
+
+
+/* contacts */
+
+
+
+.svg-location , .svg-phone , .svg-email {
+    width: 40px;
+    height: 60px;
+    fill: #616161;
+    margin-right: 15px;
+}
+
+.location-wrapper, .phone-wrapper, .email-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color: #757575;
+    font-size: 15px;
+   
+}
+
+.img-map{
+    width: 100%;
+   object-fit: cover;
+   object-position: center; 
+
+   margin: 32px 0;
+   filter: grayscale(75%);
+} 
+
+/* contacts > form*/
+
+form{
+    display: flex;
+    flex-direction: column;
+justify-content: space-evenly;
+    font-size: 15px;
+    line-height: 1.5;
+    height: 400px;
+
+}
+
+form > p{
+    color: #757575;
+}
+
+form > input{
+    padding: 20px 8px;
+    border: 1px solid #ccc;
+}
+
+form > input::placeholder{
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+
+.form-btn-wrapper{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 12px 0;
+
+}
+
+.form-btn{
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: inherit;
+}
+
+.form-btn-wrapper:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
