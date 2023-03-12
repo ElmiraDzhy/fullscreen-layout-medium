@@ -61,7 +61,7 @@ section{
 } 
 
 
-main, header{
+main, header, footer{
     grid-column: 2/3;
     padding: 12px 24px;
 
@@ -373,9 +373,7 @@ h4{
 
 /* contacts */
 
-.contacts{
-    
-}
+
 
 .svg-location , .svg-phone , .svg-email {
     width: 40px;
@@ -451,4 +449,50 @@ justify-content: center;
 .form-btn-wrapper:hover{
     cursor: pointer;
     background-color: #ccc;
+}
+
+
+/*footer*/
+footer{
+    height: 100px;
+    padding: 60px 0;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.footer-svg{
+    width: 27px;
+    height: 27px;
+    fill: #616161;
+}
+
+.footer-svg-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-svg:hover{
+    opacity: 0.60;
+}
+
+.footer-p{
+    color: #757575;
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.footer-link{
+    color: inherit;
+}
+
+.footer-link:hover{
+    color: #4CAF50!important;
+}
+
+.footer-link:visited{
+    color: #757575;
 }
