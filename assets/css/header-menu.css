@@ -1,0 +1,93 @@
+/* menu */
+
+ 
+
+  
+.header-menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 8px 16px;
+    margin: 0px;
+}
+
+.header-menu-svg{
+    fill: #616161;
+    width: 40px;
+    height: 40px;
+}
+
+.header-menu:hover{
+    cursor: pointer;
+    background-color: #757575;
+
+}
+.header-menu:hover .header-menu-svg{
+    fill: #000;
+}
+
+.humburger-menu-wrapper{
+    grid-column: 2/3;
+}
+
+.humburger-menu{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 60%;
+    height: 100vh;
+    background-color: #000;
+   
+
+    transition: all 0.3s ease-in; 
+
+    /* */
+
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.humburger-menu-item{
+    padding: 8px 16px;
+    color: #757575;
+    font-size: 36px;
+    line-height: 1.5;
+}
+.humburger-menu-item:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+.header-menu:active + .humburger-menu,
+.header-menu-svg:active + .humburger-menu,
+.humburger-menu:hover{
+    display: flex;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    
+}
+
+.close-menu-svg-wrapper{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.close-menu-svg{
+    width: 50px;
+    height: 50px;
+    fill: #fff;
+}
+.close-menu-svg:hover{
+    cursor: pointer;
+    fill: #000;
+    background-color: #ccc;
+}
+
+.humburger-menu:has(>.close-menu-svg) {
+  
+    background-color: #4CAF50;
+} 
